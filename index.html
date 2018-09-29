@@ -4,14 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
-    <h1>First heading</h1>
-    <svg class="bar-chart"></svg>
-    <!-- d3 before main.js -->
-    
-    
+    <div class="container"> 
+        <h1>Bitcoin Price</h1>
+        <button onclick="change(1,0)">1 month</button>
+        <button onclick="change(3,0)">3 month</button>
+        <button onclick="change(6,0)">6 month</button>
+        <button onclick="change(0,1)">1 year</button>
+        <button onclick="change(0,5)">5 year</button>
+        </div>
+        <svg class="bar-chart"></svg>
+        <!-- d3 before main.js -->
     <script src="http://d3js.org/d3.v4.min.js" charset="utf-8"></script>
     <!-- <script src="https://d3js.org/d3-axis.v1.min.js"></script> -->
 
