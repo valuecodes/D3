@@ -1,0 +1,33 @@
+  /* tell the SVG path to be a thin blue line without any area fill */
+  path {
+    stroke: rgb(0, 0, 0);
+    stroke-width: 1;
+    fill: none;
+}
+.axis {
+    shape-rendering: crispEdges;
+}
+.x.axis line {
+    stroke: rgb(255, 255, 255);
+}
+.x.axis .minor {
+    stroke-opacity: .5;
+}
+.x.axis path {
+    display: none;
+}
+.y.axis line, .y.axis path {
+    fill: none;
+    /* stroke: #000; */
+}
+
+.textValue{
+    /* background-color: aqua; */
+    /* stroke: #000; */
+}
+
+.circle{
+    /* fill: rgb(190, 21, 21); */
+    stroke: rgb(248, 0, 0);
+    stroke-width: 2px;
+}
